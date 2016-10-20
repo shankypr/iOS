@@ -19,27 +19,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sky" translatesAutoresizingMaskIntoConstraints="NO" id="CKC-XE-cnW">
-                                <frame key="frameInset" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sky" translatesAutoresizingMaskIntoConstraints="NO" id="CKC-XE-cnW"/>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="eld-e7-rXP">
                                 <frame key="frameInset" minX="188" minY="28" width="116" height="86"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="D1V-Ie-Nud"/>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GsA-lG-82j"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GsA-lG-82j">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="hfU-WM-Kld"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="XK8-GG-dEZ"/>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CKC-XE-cnW" secondAttribute="trailing" id="1g5-bP-qZF"/>
                             <constraint firstItem="eld-e7-rXP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="2xb-Ne-T23"/>
-                            <constraint firstItem="GsA-lG-82j" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8NC-FM-UhJ"/>
-                            <constraint firstItem="GsA-lG-82j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Luz-MB-Vz1"/>
-                            <constraint firstItem="D1V-Ie-Nud" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cen-54-LCT"/>
-                            <constraint firstAttribute="trailing" secondItem="GsA-lG-82j" secondAttribute="trailing" id="chv-i5-bgL"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="D1V-Ie-Nud" secondAttribute="bottom" id="dJI-fr-Kj0"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GsA-lG-82j" secondAttribute="bottom" id="e0D-2G-VfZ"/>
-                            <constraint firstAttribute="trailing" secondItem="D1V-Ie-Nud" secondAttribute="trailing" id="p40-9L-yOJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CKC-XE-cnW" secondAttribute="bottom" id="53x-Ou-NyV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XK8-GG-dEZ" secondAttribute="bottom" id="TUK-H2-eEH"/>
+                            <constraint firstAttribute="bottom" secondItem="GsA-lG-82j" secondAttribute="bottom" id="Xyl-hW-m0K"/>
+                            <constraint firstAttribute="trailing" secondItem="XK8-GG-dEZ" secondAttribute="trailing" id="Yai-EY-VyF"/>
+                            <constraint firstItem="XK8-GG-dEZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dAK-Cz-94l"/>
+                            <constraint firstItem="CKC-XE-cnW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dho-6t-Vat"/>
+                            <constraint firstItem="GsA-lG-82j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fck-mG-YWb"/>
                             <constraint firstItem="eld-e7-rXP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qdA-Hg-dby"/>
+                            <constraint firstItem="CKC-XE-cnW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="t5H-w6-Tbw"/>
+                            <constraint firstItem="GsA-lG-82j" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="u6L-j8-Xje"/>
                         </constraints>
                     </view>
                     <connections>
