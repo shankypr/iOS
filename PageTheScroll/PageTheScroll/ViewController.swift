@@ -28,7 +28,7 @@ class ViewController: UIViewController,UIScrollViewDelegate {
                 case UISwipeGestureRecognizerDirection.right:
                     //scrollView.scr
                     print("Swiped right")
-                    scrollView.mov
+          
                 case UISwipeGestureRecognizerDirection.left:
                     print("Swiped left")
                 default:
