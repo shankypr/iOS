@@ -12,6 +12,8 @@
 		A22DE7971DCBBA5600CCAE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22DE7951DCBBA5600CCAE05 /* Main.storyboard */; };
 		A22DE7991DCBBA5600CCAE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22DE7981DCBBA5600CCAE05 /* Assets.xcassets */; };
 		A22DE79C1DCBBA5600CCAE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22DE79A1DCBBA5600CCAE05 /* LaunchScreen.storyboard */; };
+		A22DE7A41DCBCD8300CCAE05 /* ELRIOTT2.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A22DE7A31DCBCD8300CCAE05 /* ELRIOTT2.TTF */; };
+		A22DE7A61DCBCE9300CCAE05 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A22DE7A51DCBCE9300CCAE05 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A22DE7981DCBBA5600CCAE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22DE79B1DCBBA5600CCAE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A22DE79D1DCBBA5600CCAE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22DE7A31DCBCD8300CCAE05 /* ELRIOTT2.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ELRIOTT2.TTF; sourceTree = "<group>"; };
+		A22DE7A51DCBCE9300CCAE05 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		A22DE7851DCBBA5500CCAE05 = {
 			isa = PBXGroup;
 			children = (
+				A22DE7A51DCBCE9300CCAE05 /* btn.wav */,
+				A22DE7A31DCBCD8300CCAE05 /* ELRIOTT2.TTF */,
 				A22DE7901DCBBA5600CCAE05 /* RetroCalculator */,
 				A22DE78F1DCBBA5600CCAE05 /* Products */,
 			);
@@ -123,7 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22DE7A61DCBCE9300CCAE05 /* btn.wav in Resources */,
 				A22DE79C1DCBBA5600CCAE05 /* LaunchScreen.storyboard in Resources */,
+				A22DE7A41DCBCD8300CCAE05 /* ELRIOTT2.TTF in Resources */,
 				A22DE7991DCBBA5600CCAE05 /* Assets.xcassets in Resources */,
 				A22DE7971DCBBA5600CCAE05 /* Main.storyboard in Resources */,
 			);
