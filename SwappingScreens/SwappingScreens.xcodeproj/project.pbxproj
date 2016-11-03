@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A22AB3171DBD3F9D0071778D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AB3161DBD3F9D0071778D /* AppDelegate.swift */; };
-		A22AB3191DBD3F9D0071778D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AB3181DBD3F9D0071778D /* ViewController.swift */; };
-		A22AB31C1DBD3F9D0071778D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22AB31A1DBD3F9D0071778D /* Main.storyboard */; };
-		A22AB31E1DBD3F9D0071778D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22AB31D1DBD3F9D0071778D /* Assets.xcassets */; };
-		A22AB3211DBD3F9D0071778D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22AB31F1DBD3F9D0071778D /* LaunchScreen.storyboard */; };
+		A20BBFCD1DC53A8B0036FADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20BBFCC1DC53A8B0036FADA /* AppDelegate.swift */; };
+		A20BBFCF1DC53A8B0036FADA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20BBFCE1DC53A8B0036FADA /* LoginVC.swift */; };
+		A20BBFD21DC53A8B0036FADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20BBFD01DC53A8B0036FADA /* Main.storyboard */; };
+		A20BBFD41DC53A8C0036FADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20BBFD31DC53A8C0036FADA /* Assets.xcassets */; };
+		A20BBFD71DC53A8C0036FADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20BBFD51DC53A8C0036FADA /* LaunchScreen.storyboard */; };
+		A20BBFE11DC53D250036FADA /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20BBFE01DC53D250036FADA /* MusicListVC.swift */; };
+		A20BBFE31DC541770036FADA /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20BBFE21DC541770036FADA /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A22AB3131DBD3F9D0071778D /* shoe-stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shoe-stack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A22AB3161DBD3F9D0071778D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A22AB3181DBD3F9D0071778D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A22AB31B1DBD3F9D0071778D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A22AB31D1DBD3F9D0071778D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A22AB3201DBD3F9D0071778D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A22AB3221DBD3F9D0071778D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20BBFC91DC53A8B0036FADA /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20BBFCC1DC53A8B0036FADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20BBFCE1DC53A8B0036FADA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A20BBFD11DC53A8B0036FADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A20BBFD31DC53A8C0036FADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20BBFD61DC53A8C0036FADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A20BBFD81DC53A8C0036FADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20BBFE01DC53D250036FADA /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		A20BBFE21DC541770036FADA /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A22AB3101DBD3F9C0071778D /* Frameworks */ = {
+		A20BBFC61DC53A8B0036FADA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +39,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A22AB30A1DBD3F9C0071778D = {
+		A20BBFC01DC53A8B0036FADA = {
 			isa = PBXGroup;
 			children = (
-				A22AB3151DBD3F9D0071778D /* shoe-stack */,
-				A22AB3141DBD3F9D0071778D /* Products */,
+				A20BBFCB1DC53A8B0036FADA /* SwappingScreens */,
+				A20BBFCA1DC53A8B0036FADA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A22AB3141DBD3F9D0071778D /* Products */ = {
+		A20BBFCA1DC53A8B0036FADA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A22AB3131DBD3F9D0071778D /* shoe-stack.app */,
+				A20BBFC91DC53A8B0036FADA /* SwappingScreens.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A22AB3151DBD3F9D0071778D /* shoe-stack */ = {
+		A20BBFCB1DC53A8B0036FADA /* SwappingScreens */ = {
 			isa = PBXGroup;
 			children = (
-				A22AB3161DBD3F9D0071778D /* AppDelegate.swift */,
-				A22AB3181DBD3F9D0071778D /* ViewController.swift */,
-				A22AB31A1DBD3F9D0071778D /* Main.storyboard */,
-				A22AB31D1DBD3F9D0071778D /* Assets.xcassets */,
-				A22AB31F1DBD3F9D0071778D /* LaunchScreen.storyboard */,
-				A22AB3221DBD3F9D0071778D /* Info.plist */,
+				A20BBFCC1DC53A8B0036FADA /* AppDelegate.swift */,
+				A20BBFE21DC541770036FADA /* PlaySongVC.swift */,
+				A20BBFCE1DC53A8B0036FADA /* LoginVC.swift */,
+				A20BBFE01DC53D250036FADA /* MusicListVC.swift */,
+				A20BBFD01DC53A8B0036FADA /* Main.storyboard */,
+				A20BBFD31DC53A8C0036FADA /* Assets.xcassets */,
+				A20BBFD51DC53A8C0036FADA /* LaunchScreen.storyboard */,
+				A20BBFD81DC53A8C0036FADA /* Info.plist */,
 			);
-			path = "shoe-stack";
+			path = SwappingScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A22AB3121DBD3F9C0071778D /* shoe-stack */ = {
+		A20BBFC81DC53A8B0036FADA /* SwappingScreens */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A22AB3251DBD3F9D0071778D /* Build configuration list for PBXNativeTarget "shoe-stack" */;
+			buildConfigurationList = A20BBFDB1DC53A8C0036FADA /* Build configuration list for PBXNativeTarget "SwappingScreens" */;
 			buildPhases = (
-				A22AB30F1DBD3F9C0071778D /* Sources */,
-				A22AB3101DBD3F9C0071778D /* Frameworks */,
-				A22AB3111DBD3F9C0071778D /* Resources */,
+				A20BBFC51DC53A8B0036FADA /* Sources */,
+				A20BBFC61DC53A8B0036FADA /* Frameworks */,
+				A20BBFC71DC53A8B0036FADA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "shoe-stack";
-			productName = "shoe-stack";
-			productReference = A22AB3131DBD3F9D0071778D /* shoe-stack.app */;
+			name = SwappingScreens;
+			productName = SwappingScreens;
+			productReference = A20BBFC91DC53A8B0036FADA /* SwappingScreens.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A22AB30B1DBD3F9C0071778D /* Project object */ = {
+		A20BBFC11DC53A8B0036FADA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Shashank.Rao;
 				TargetAttributes = {
-					A22AB3121DBD3F9C0071778D = {
+					A20BBFC81DC53A8B0036FADA = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A22AB30E1DBD3F9C0071778D /* Build configuration list for PBXProject "shoe-stack" */;
+			buildConfigurationList = A20BBFC41DC53A8B0036FADA /* Build configuration list for PBXProject "SwappingScreens" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +114,56 @@
 				en,
 				Base,
 			);
-			mainGroup = A22AB30A1DBD3F9C0071778D;
-			productRefGroup = A22AB3141DBD3F9D0071778D /* Products */;
+			mainGroup = A20BBFC01DC53A8B0036FADA;
+			productRefGroup = A20BBFCA1DC53A8B0036FADA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A22AB3121DBD3F9C0071778D /* shoe-stack */,
+				A20BBFC81DC53A8B0036FADA /* SwappingScreens */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A22AB3111DBD3F9C0071778D /* Resources */ = {
+		A20BBFC71DC53A8B0036FADA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22AB3211DBD3F9D0071778D /* LaunchScreen.storyboard in Resources */,
-				A22AB31E1DBD3F9D0071778D /* Assets.xcassets in Resources */,
-				A22AB31C1DBD3F9D0071778D /* Main.storyboard in Resources */,
+				A20BBFD71DC53A8C0036FADA /* LaunchScreen.storyboard in Resources */,
+				A20BBFD41DC53A8C0036FADA /* Assets.xcassets in Resources */,
+				A20BBFD21DC53A8B0036FADA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A22AB30F1DBD3F9C0071778D /* Sources */ = {
+		A20BBFC51DC53A8B0036FADA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22AB3191DBD3F9D0071778D /* ViewController.swift in Sources */,
-				A22AB3171DBD3F9D0071778D /* AppDelegate.swift in Sources */,
+				A20BBFE11DC53D250036FADA /* MusicListVC.swift in Sources */,
+				A20BBFE31DC541770036FADA /* PlaySongVC.swift in Sources */,
+				A20BBFCF1DC53A8B0036FADA /* LoginVC.swift in Sources */,
+				A20BBFCD1DC53A8B0036FADA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A22AB31A1DBD3F9D0071778D /* Main.storyboard */ = {
+		A20BBFD01DC53A8B0036FADA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A22AB31B1DBD3F9D0071778D /* Base */,
+				A20BBFD11DC53A8B0036FADA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A22AB31F1DBD3F9D0071778D /* LaunchScreen.storyboard */ = {
+		A20BBFD51DC53A8C0036FADA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A22AB3201DBD3F9D0071778D /* Base */,
+				A20BBFD61DC53A8C0036FADA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A22AB3231DBD3F9D0071778D /* Debug */ = {
+		A20BBFD91DC53A8C0036FADA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		A22AB3241DBD3F9D0071778D /* Release */ = {
+		A20BBFDA1DC53A8C0036FADA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,58 +264,51 @@
 			};
 			name = Release;
 		};
-		A22AB3261DBD3F9D0071778D /* Debug */ = {
+		A20BBFDC1DC53A8C0036FADA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "shoe-stack/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				INFOPLIST_FILE = SwappingScreens/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.foo.shoe-stack";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foo.SwappingScreens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A22AB3271DBD3F9D0071778D /* Release */ = {
+		A20BBFDD1DC53A8C0036FADA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "shoe-stack/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				INFOPLIST_FILE = SwappingScreens/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.foo.shoe-stack";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foo.SwappingScreens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A22AB30E1DBD3F9C0071778D /* Build configuration list for PBXProject "shoe-stack" */ = {
+		A20BBFC41DC53A8B0036FADA /* Build configuration list for PBXProject "SwappingScreens" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A22AB3231DBD3F9D0071778D /* Debug */,
-				A22AB3241DBD3F9D0071778D /* Release */,
+				A20BBFD91DC53A8C0036FADA /* Debug */,
+				A20BBFDA1DC53A8C0036FADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A22AB3251DBD3F9D0071778D /* Build configuration list for PBXNativeTarget "shoe-stack" */ = {
+		A20BBFDB1DC53A8C0036FADA /* Build configuration list for PBXNativeTarget "SwappingScreens" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A22AB3261DBD3F9D0071778D /* Debug */,
-				A22AB3271DBD3F9D0071778D /* Release */,
+				A20BBFDC1DC53A8C0036FADA /* Debug */,
+				A20BBFDD1DC53A8C0036FADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A22AB30B1DBD3F9C0071778D /* Project object */;
+	rootObject = A20BBFC11DC53A8B0036FADA /* Project object */;
 }
